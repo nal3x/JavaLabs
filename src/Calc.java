@@ -12,7 +12,7 @@ public static void main(String args[])  {
         operand1 = Integer.parseInt(args[0]);
         operand2 = Integer.parseInt(args[1]);
         
-       operator = args[2].charAt(0);
+        operator = args[2].charAt(0);
    
        switch(operator) {
             case ('-'): 

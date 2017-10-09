@@ -25,6 +25,6 @@ class Tester {
 to rec1
 */
 
-/*homework: class Circle, having x,y and radius attributes. Provide a surface
+/*homework: class Circle on a new file, having x,y and radius attributes. Provide a surface
 method using Java.lang.Math.pow() and Math.PI
 */ 
