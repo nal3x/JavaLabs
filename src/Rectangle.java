@@ -14,7 +14,7 @@ class Tester {
         rec1 = new Rectangle();
         
         rec1.x = rec1.y = 0.0;
-        rec1.width = 4.0;
+        rec1.width = 3.0;
         rec1.height = 2.0;
 
         System.out.println("Surface of first rectangle is:" + rec1.surface());
