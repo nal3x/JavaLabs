@@ -22,9 +22,6 @@ class Tester {
     }
 }
 /*construct a second rectangle with arbitrary dimensions and compare its surface
-to rec1
-*/
-
-/*homework: class Circle on a new file, having x,y and radius attributes. Provide a surface
-method using Java.lang.Math.pow() and Math.PI
+to rec1. Homework: class Circle on a new file, having x,y and radius attributes.
+Provide a surface method using Java.lang.Math.pow() and Math.PI
 */ 
