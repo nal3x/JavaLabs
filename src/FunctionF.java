@@ -9,3 +9,5 @@ public class FunctionF {
 
 //Math.pow(x, 3) gives x cubed
 //Math.sqrt(x) gives square root of x
+
+//user provides input x from keyboard!!!
