@@ -17,3 +17,8 @@ public static void main(String[] args) {
       System.out.println("Sum is  : " + result );
     }
 }
+
+/*Modify and create Capitalize.java, a class that parses input as a String, and
+prints the sentence capitalized. See Scanner and String class for appropriate 
+methods. 
+*/
