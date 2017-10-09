@@ -6,6 +6,13 @@ public class Rectangle {
         return width * height;        
     }
     
+    String hasEqualSurface(Rectangle r) {
+        String s = new String("");
+        if (this.surface() != r.surface()) 
+            s += "not";
+        return s + "equal";
+    }
+    
 }
 
 class Tester {
@@ -16,8 +23,26 @@ class Tester {
         rec1.x = rec1.y = 0.0;
         rec1.width = 3.0;
         rec1.height = 2.0;
+        
+        Rectangle rec2 = new Rectangle();
+        
+        rec2.x = 1.0;
+        rec2.y = -1.0;
+        rec2.width = 1.0;
+        rec2.height = 6.0;
 
-        System.out.println("Surface of first rectangle is:" + rec1.surface());
+        System.out.println("Surface of first rectangle is: " + rec1.surface());
+        System.out.println("Surface of second rectangle is: " + rec2.surface());
+        
+//        String s = new String("equal");
+//        if (rec1.surface() != rec2.surface()) 
+//            s = "not " + s;
+//        System.out.println("Surfaces of the two shapes are " + s);
+
+        System.out.println("Rectangle 1 surface is " + 
+                rec1.hasEqualSurface(rec2) +
+                " to Rectangle 2 surface");
+            
         
     }
 }
