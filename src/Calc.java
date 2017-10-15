@@ -1,3 +1,7 @@
+/*Uses wrapper class Integer. 
+
+*/
+
 public class Calc
 {   
 public static void main(String args[])  {
@@ -9,9 +13,8 @@ public static void main(String args[])  {
                 return;
         }
         
-        operand1 = Integer.parseInt(args[0]);
-        operand2 = Integer.parseInt(args[1]);
-        
+        operand1 = Integer.parseInt(args[0]); 
+        operand2 = Integer.parseInt(args[1]);        
         operator = args[2].charAt(0);
    
        switch(operator) {
